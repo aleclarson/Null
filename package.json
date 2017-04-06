@@ -1,0 +1,9 @@
+{
+  "name": "Null",
+  "version": "1.0.1",
+  "main": "js/Null",
+  "dependencies": {
+    "Validator": "aleclarson/Validator#1.1.1",
+    "wrongType": "aleclarson/wrongType#1.0.0"
+  }
+}
