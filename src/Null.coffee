@@ -2,7 +2,7 @@
 Validator = require "Validator"
 wrongType = require "wrongType"
 
-module.exports = Validator "Null",
+Null = Validator "Null",
 
   test: (value) ->
     value is null
@@ -10,3 +10,5 @@ module.exports = Validator "Null",
   assert: (value, key) ->
     return if value is null
     wrongType this, key
+
+module.exports = Null
